@@ -1,0 +1,25 @@
+{
+    "name": "erikfig/son-laravel-location",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\Location\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Location\\Providers\\LocationServiceProvider"
+            ],
+            "aliases": {
+                "Location": "Modules\\Location\\Facades\\Location"
+            }
+        }
+    }
+}

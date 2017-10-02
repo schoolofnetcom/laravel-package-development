@@ -1,0 +1,24 @@
+{
+    "name": "erikfig/son-laravel-pages",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "require": {
+        "erikfig/son-laravel-location": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pages\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Pages\\Providers\\PageServiceProvider"
+            ]
+        }
+    }
+}
